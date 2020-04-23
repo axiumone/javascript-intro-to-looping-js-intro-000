@@ -6,4 +6,4 @@ function forLoop(gifts) {
   }
 }
 
-wrapGift(gifts)
+forLoop(gifts)
