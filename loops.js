@@ -10,9 +10,21 @@ function forLoop(array) {
 }
 
 
-function whileLoop(n) {
+function whileLoop(n = 11) {
   while (n>0) {
     console.log(--n)
   }
   return 'done'
+}
+
+function incrementVariable() {
+  return b++;
+}
+
+let b = 0;
+
+function doWhileLoop (num) {
+  do {
+    console.log('I run once regardless.')
+  } while (incrementVariable() < num)
 }
