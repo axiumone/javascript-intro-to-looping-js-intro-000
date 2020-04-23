@@ -1,5 +1,7 @@
 function forLoop(){
   const array = []
-  for (let i = 0; i < 25; i++)
-  console.log(i)
+  const t = 25
+  for (let i = 0; i < t; i++) {
+    array.push("I am a strange loop.")
+  }
 }
