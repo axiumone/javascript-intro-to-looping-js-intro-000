@@ -1,9 +1,9 @@
-let t = [1,2,3,4,5,6];
+let gifts = ["teddy bear", "drone", "doll"];
 
-function forLoop(){
-
-  for (let i = 0; i < t; i++) {
-    array.push("I am a strange loop.");
+function forLoop(gifts) {
+  for (let i = 0; i < 25; i++) {
+    console.log(`Wrapped ${gifts[i]} and added a bow!`);
   }
-  return [array, t];
 }
+
+wrapGift(gifts)
